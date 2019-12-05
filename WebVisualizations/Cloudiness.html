@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cloudiness</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="webviz_style.css">
+    </head>
+
+    <body>
+        <body>
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Latitude</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Plots
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="Max_Temperature.html">Max Temperature</a>
+                                <a class="dropdown-item" href="Humidity.html">Humidity</a>
+                                <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+                                <a class="dropdown-item" href="Wind_speed.html">Wind Speed</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Comparison</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Data</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- Setting the title -->
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-8"> <br>
+                        <h3>Humidity</h3>
+                    </div>
+
+                    <div class="col-4"> <br>
+                        <h5>Visualizations</h5>
+                    </div> 
+                </div>
+
+                <!-- Image and Text -->
+                <div class="row">
+                    <div class="col-6">
+                        <img src="Resources/assets/images/City latitude vs Cloudiness.png" alt="Lat vs Cloudiness">
+                        <p align="justify">There is no correlaton between the latitude and Cloudiness.</p>
+                    </div>
+
+                    <!-- First 2 images -->
+                    <div class="col-md-3 pad top"> <br>
+
+                        <div class="pull-right">
+                            <a href="Max_Temperature.html"><img src="Resources/assets/images/City Latitude vs Max Temperature.png"
+                                    alt="Latitude vs. Max Temperature" width="100%" height="100%"></a>
+                            <a href="Wind_speed.html"><img src="Resources/assets/images/City Latitude vs Wind Speed.png"
+                                    alt="Latitude vs. Wind Speed" width="100%" height="100%"></a>
+                        </div>
+        
+                    </div>
+        
+                    <div class="col-md-3 pad top"> <br>
+        
+                        <div class="pull-right">
+                            <a href="Humidity.html"><img src="Resources/assets/images/City Latitude vs Humidity.png"
+                                    alt="Latitude vs. Humidity" width="100%" height="100%"></a>
+                            <a href="Cloudiness.html"><img src="Resources/assets/images/City latitude vs Cloudiness.png"
+                                    alt="Latitude vs. Cloudiness" width="100%" height="100%"></a>
+                        </div>
+        
+                    </div>
+
+                    
+                </div>
+            </div>
+
+            
+
+    </body>
+</html>

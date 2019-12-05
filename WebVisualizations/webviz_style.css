@@ -1,0 +1,33 @@
+.float-left{
+    float:left
+}
+
+.img {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.landing-padding {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+.center{
+    position: relative;
+}
+
+h3{
+    color: teal;
+}
+
+h6{
+    color:teal;
+}
+
+p{
+    color: darkgrey;
+}
